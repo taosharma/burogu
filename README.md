@@ -70,8 +70,8 @@ blog:
 - SortFilter
 
 - App
-    - Base
-        - Home
+    - Home
+        - Welcome
         - About
         - Latest
         - Blogs

@@ -1,11 +1,11 @@
 import './App.css';
 
-import BannerImage from './components/BannerImage';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div className="App">
-      <BannerImage/>
+      <Home/>
     </div>
   );
 }

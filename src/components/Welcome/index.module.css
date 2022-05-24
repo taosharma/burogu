@@ -1,0 +1,6 @@
+.iconCardContainer{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 80vw;
+}

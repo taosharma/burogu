@@ -1,0 +1,11 @@
+.titleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.titleText{
+    font-family: Tahoma, sans-serif;
+    font-size: 8vh;
+}
+
+  

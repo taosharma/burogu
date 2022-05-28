@@ -1,0 +1,16 @@
+.aboutContainer{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 80vw;
+}
+
+
+.aboutColumn {
+    max-width: 35vw;
+    overflow: hidden;
+}
+
+.aboutImg {
+    max-height: 65vh;
+}

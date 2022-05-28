@@ -1,0 +1,9 @@
+.subtitleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.subtitleText{
+    font-family: Tahoma, sans-serif;
+    font-size: 5vh;
+}

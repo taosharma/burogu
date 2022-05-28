@@ -27,6 +27,7 @@ blog:
 ## Features
 
 - Translate to English button with voice if possible.
+- Moving box over title which translates text in real time
 
 ## Components
 

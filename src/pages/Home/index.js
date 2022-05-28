@@ -1,11 +1,13 @@
-import Welcome from "../../components/Welcome";
+import Welcome from '../../components/Welcome'
+import About from '../../components/About'
 
 function Home() {
-    return (
-      <div className="Home">
-        <Welcome/>
-      </div>
-    );
-  }
+  return (
+    <div className="Home">
+      <Welcome />
+      <About />
+    </div>
+  )
+}
 
-export default Home;
+export default Home

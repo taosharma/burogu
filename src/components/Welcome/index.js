@@ -1,30 +1,28 @@
-import styles from "./index.module.css"
-import BannerImage from "../BannerImage";
-import Title from "../Title";
-import IconCard from "../IconCard";
-import digitalNomad from "../../images/digitalNomad.png"
+import styles from './index.module.css'
+
+import BannerImage from '../BannerImage'
+import Title from '../Title'
+import IconCard from '../IconCard'
+
+import { welcomeIcons } from '../../constants/welcome'
 
 function Welcome() {
-    return (
-      <div>
-          <BannerImage/>
-          <Title title="ブログ"/>
-          <div className={styles.iconCardContainer}>
-          <IconCard pngImg={digitalNomad} 
-              alt="working online" 
-              text="Digital Nomad Lifestyle" />
-          <IconCard pngImg={digitalNomad} 
-              alt="working online" 
-              text="Cultural Differences" />
-          <IconCard pngImg={digitalNomad} 
-              alt="working online" 
-              text="Cats of the World" />
-          <IconCard pngImg={digitalNomad} 
-              alt="working online" 
-              text="Hobbies & Dreams" />
-          </div>
+  return (
+    <div>
+      <BannerImage />
+      <Title title="ブログ" />
+      <div className={styles.iconCardContainer}>
+        {welcomeIcons.map((icon, index) => (
+          <IconCard
+            pngImg={icon.pngImg}
+            alt={icon.alt}
+            text={icon.text}
+            key={index}
+          />
+        ))}
       </div>
-    );
-  }
+    </div>
+  )
+}
 
-export default Welcome;
+export default Welcome

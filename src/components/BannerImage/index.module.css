@@ -1,13 +1,10 @@
 .bannerImage {
   background-image: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0, 0, 0, 0.377)),
     url("https://i.imgur.com/QgX1TdC.jpg");
-
   height: 75vh;
-
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-
 }

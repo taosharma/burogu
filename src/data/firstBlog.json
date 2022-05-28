@@ -1,0 +1,50 @@
+{
+  "id": 1,
+  "title": "First blog",
+  "coverImage": {
+    "link": "https://i.imgur.com/QgX1TdC.jpg",
+    "alt": "Hazie and Tao"
+  },
+  "date": "8 May 2022",
+  "summary": "Welcome to our first blog.",
+  "entries": [
+    {
+      "name": "Hazie",
+      "text": [
+        {
+          "subtitle": "Digital nomad life",
+          "text": [
+            "今週ベトナムのホイアンに行きました。ホイアンはダナンの南にあります。それは名称ですから、たくさん仕立屋と美味しい食べ物があります。ベトナムは安い国です。だから、いい部屋で泊まり込みました。前日仕事をしなくてはいけないので、楽でいたい。",
+            "水曜日、古い寺に行きました。古いけど、まだみるのが面白かった。今週毎日は朝ごはんにたまごのサンドを食べました。"
+          ],
+          "images": [
+            {
+              "link": "https://i.imgur.com/QgX1TdC.jpg",
+              "alt": "Tao and Hazie",
+              "paragraphKey": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tao",
+      "text": [
+        {
+          "subtitle": "Digital nomad life",
+          "text": [
+            "今週ベトナムのホイアンに行きました。ホイアンはダナンの南にあります。それは名称ですから、たくさん仕立屋と美味しい食べ物があります。ベトナムは安い国です。だから、いい部屋で泊まり込みました。前日仕事をしなくてはいけないので、楽でいたい。",
+            "水曜日、古い寺に行きました。古いけど、まだみるのが面白かった。今週毎日は朝ごはんにたまごのサンドを食べました。"
+          ],
+          "images": [
+            {
+              "link": "https://i.imgur.com/QgX1TdC.jpg",
+              "alt": "Tao and Hazie",
+              "paragraph_key": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

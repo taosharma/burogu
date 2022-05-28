@@ -1,6 +1,7 @@
 .titleContainer {
     display: flex;
     justify-content: center;
+    padding: 2rem 2rem 2rem 2rem;
 }
 
 .titleText{

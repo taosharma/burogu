@@ -1,0 +1,28 @@
+{
+  "id": "",
+  "title": "",
+  "cover_image": {
+    "link": "",
+    "alt": ""
+  },
+  "date": "",
+  "summary": "",
+  "entries": [
+    {
+      "name": "",
+      "content": [
+        {
+          "subtitle": "",
+          "text": ["", ""],
+          "images": [
+            {
+              "link": "",
+              "alt": "",
+              "paragraph_key": "int"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
